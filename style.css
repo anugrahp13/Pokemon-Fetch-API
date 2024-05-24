@@ -22,6 +22,7 @@
 
   --font-weight-regular: 400;
   --font-weight-bold: 700;
+  --font-weight-bold-max : 900 ;
 
   --drop-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
   --drop-shadow-hover: 0px 3px 12px 3px rgba(0, 0, 0, 0.2);
@@ -69,6 +70,8 @@ h4 {
 .caption-fonts {
   font-size: var(--caption-font-size);
   line-height: var(--caption-line-height);
+  font-weight: var(--font-weight-bold-max);
+  letter-spacing: 1px;
 }
 
 input:focus-visible {
@@ -354,6 +357,11 @@ body {
   z-index: 2;
 }
 
+.detail-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .power-wrapper {
   display: flex;
   justify-content: center;
@@ -381,7 +389,7 @@ body {
 }
 
 .detail-card-detail-wrapper .about-text {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold-max);
   text-align: center;
 }
 
