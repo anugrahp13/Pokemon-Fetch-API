@@ -1,5 +1,5 @@
 :root {
-  --identity-primary: #dc0a2d;
+  --identity-primary: #14b8a6;
 
   --grayscale-dark: #212121;
   --grayscale-medium: #666666;
@@ -212,7 +212,7 @@ body {
 .filter-wrapper > .body2-fonts {
   color: var(--grayscale-white);
   font-weight: var(--font-weight-bold);
-  padding: 16px 20px;
+  /* padding: 16px 20px; */
 }
 
 .filter-wrap {
